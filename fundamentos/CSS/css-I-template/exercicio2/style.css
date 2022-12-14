@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+}
+
+
+.longe-bordas{
+    background-color: #FFA6A9;
+    display: block;
+    padding: 10px;
+    margin: 100px;
+  }
+  
+  .afastado{
+    background-color: #77C0ED;
+    display: block;
+    margin: 100px 0;
+  }
+  .alto{
+    background-color: #C3E887;
+    height: 300px;
+  }
+  
+  .largo{
+  background-color: #FFE396;
+  width: 500px;
+  }
+  
+  .bordado{
+    background-color: #AF9BCC;
+    border: 3px black solid;
+  }
+  
+  .sumido{
+   display: none;
+  }
