@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.bloco{
+    padding: 10px;
+    margin: 20px;
+    width: 20vw;
+    text-align: center;
+    color: white;
+}
+
+#bloco-1{
+    background-color: #e18f39;
+    border: 5px solid #eda751;
+}
+
+#bloco-2{
+    background-color: #3c7f4e;
+    border: 5px solid #51a676;
+}
+
+#bloco-3{
+    background-color: #1e4633;
+    border: 5px dashed #64cd7b;
+}
+
+#bloco-4{
+    background-color: #dc3f2b;
+    border: 5px dashed #e98274;
+}
+
