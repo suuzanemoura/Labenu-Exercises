@@ -141,17 +141,28 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 }
 
 // EXERCÍCIO 14
-function retornaContasComSaldoAtualizado(contas) {
-    for (let i = 0; i < contas.length; i++){
-        const sumPurchase = contas[i].compras.reduce(
-            (soma, valor) => soma + valor, 0
-        )
+// function retornaContasComSaldoAtualizado(contas) {
+//     for (let i = 0; i < contas.length; i++){
+//         const sumPurchase = contas[i].compras.reduce(
+//             (soma, valor) => soma + valor, 0
+//         )
 
-        contas[i].saldoTotal -= sumPurchase
-        contas[i].compras = []
-    }
+//         contas[i].saldoTotal -= sumPurchase
+//         contas[i].compras = []
+//     }
+//     return contas
+// }
+
+function retornaContasComSaldoAtualizado(contas) {
+    contas.map((cliente) => {
+    const comprasTotal =  cliente.compras.reduce((a,b) => a + b, 0);
+    cliente.saldoTotal -= comprasTotal;
+    cliente.compras = []
+    })
+    
     return contas
 }
+    
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
