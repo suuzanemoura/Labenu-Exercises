@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: mediumvioletred;
+    height: 7.5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+header > img {
+    width: 1.4rem;
+    margin: 0 1rem 0 2rem;
+}
+
+header > button {
+    margin-left: auto;
+    margin-right: 3rem;
+    width: 3rem;
+}
+
+main{
+    display: flex;
+}
+
+nav {
+    width: 20vw;
+    background-color: #f2d0e0;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: mediumvioletred;
+}
+
+nav img {
+    width: 1rem;
+    margin: 0 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.um {
+    flex-grow: 0;
+    background-color: aqua;
+}
+
+.dois {
+    flex-basis: 100px;
+    background-color: aqua;
+}
+
+.tres {
+    flex-grow: 1;
+    width: 1rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 0.25rem;
+    padding: 2rem;
+}
+
+article {
+    width: 14rem;
+    height: 19.5rem;
+    margin: 1rem;
+    font-size: 0.85rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0.15rem 0.15rem 0.5rem darkgray;
+}
+
+article > img {
+    width: 14rem;
+    height: 14rem;
+    object-fit:cover;
+}
+
+article > h1, article > p {
+    padding: 0.4rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background-color: mediumvioletred;
+    height: 7.5vh;
+    width: 100vw;
+}
