@@ -1,4 +1,4 @@
-# Exercícios, curso Web FullStack - Labenu
+# Exercícios e desafios, Curso Web FullStack - Labenu
 
 Esse repositório contém todos os exercícios realizados durantes as aulas do curso Web FullStack integral da Labenu.
 
