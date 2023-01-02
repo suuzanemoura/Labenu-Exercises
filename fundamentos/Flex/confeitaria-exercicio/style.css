@@ -4,23 +4,34 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+}
+
 header{
     background-color: mediumvioletred;
     height: 7.5vh;
-    width: 100vw;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    align-items: baseline;
     font-size: 0.7rem;
     font-weight: 900;
 }
 
-header > img {
+#logo > img {
     width: 1.4rem;
     margin: 0 1rem 0 2rem;
 }
 
 header > button {
-    margin-left: auto;
     margin-right: 3rem;
     width: 3rem;
 }
@@ -69,6 +80,7 @@ ul {
 section {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 5;
     width: 80vw;
     gap: 0.25rem;
     padding: 2rem;
@@ -98,9 +110,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    bottom: 0;
     background-color: mediumvioletred;
     height: 7.5vh;
-    width: 100vw;
 }
