@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Fazer uma div container porque não pode aplicar propriedades css no body*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    border: 1px black solid;
+}
+
+main{
+    display: flex;
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+
+
+.ladoEsquerdo {
+    flex-grow: 2;
+}
+
+.ladoDireito {
+    flex-grow: 1;
+}
+
+aside{
+    border: 1px solid black;
+}
+
+section{
+    display: flex;
+    border: 1px solid black;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+article{
+    width: 10rem;
+    height: 16rem;
+    border: 1px solid black;
+}
+
+article > p{
+    margin: 0.5rem;
+}
+
+article > img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+footer{
+
+    background-color: burlywood;
+}

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-container {
+    margin-top: 20px;
+  }
+  
+  .gallery {
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  #img-1 {
+
+  }
+  
+  #img-2 {
+
+  }
+  
+  #img-3 {
+  
+  }
+  
+  #img-4 {
+
+  }
+  
+  #img-5 {
+
+  }
+  
+  #img-6 {
+
+  }
+  
+  #img-7 {
+
+  }
+  
