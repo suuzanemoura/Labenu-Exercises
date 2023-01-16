@@ -1,6 +1,5 @@
 import "./App.css"
 import logo from "../src/img/logo.png"
-import logo from "./logo.svg"
 
 const nome = "Conway"
 
