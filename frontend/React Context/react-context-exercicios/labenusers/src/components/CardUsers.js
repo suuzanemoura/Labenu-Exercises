@@ -9,7 +9,7 @@ export const CardUsers = (props) => {
   return (
     <Card
       maxW="sm"
-      border={user.id === select ? "3px solid orange" : 0}
+      border={user.id === select ? "3px solid orange" : "3px solid transparent"}
       onClick={() => setSelect(user.id)}
     >
       <CardBody>
