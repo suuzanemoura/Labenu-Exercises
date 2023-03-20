@@ -1,0 +1,18 @@
+{
+  "name": "package-json-template",
+  "version": "1.0.0",
+  "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
+  "main": "countries.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./pratica1.js",
+    "returnBrazil": "node ./pratica1.js Brazil",
+    "returnCountryWithLetterB": "node ./pratica2.js b",
+    "returnSouthCountries": "node ./pratica3.js south",
+    "newCountry": "node ./pratica4.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
