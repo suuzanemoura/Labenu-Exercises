@@ -1,42 +1,41 @@
 export class Video {
-
     constructor(
-        private id: string,
-        private title: string,
-        private duration: number,
-        private uploadAt: string,
-
-    ){}
-
-    public getId():string{
-        return this.id
+      private id: string,
+      private title: string,
+      private duration: number,
+      private uploadAt: string
+    ) {}
+  
+    get _id(): string {
+      return this.id;
     }
-
-    public setId(value:string):void{
-        this.id = value
+  
+    get _title(): string {
+      return this.title;
     }
-
-    public getTitle():string{
-        return this.title
+  
+    get _duration(): number {
+      return this.duration;
     }
-
-    public setTitle(value:string):void{
-        this.title = value
+  
+    get _uploadAt(): string {
+      return this.uploadAt;
     }
-
-    public getDuration():number{
-        return this.duration
+  
+    set _id(value: string) {
+      this.id = value;
     }
-
-    public setDuration(value:number):void{
-        this.duration = value
+  
+    set _title(value: string) {
+      this.title = value;
     }
-
-    public getUploadAt():string{
-        return this.uploadAt
+  
+    set _duration(value: number) {
+      this.duration = value;
     }
-
-    public setUploadAt(value:string):void{
-        this.uploadAt = value
+  
+    set _uploadAt(value: string) {
+      this.uploadAt = value;
     }
-} 
+  }
+;

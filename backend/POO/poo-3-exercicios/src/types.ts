@@ -1,4 +1,4 @@
-export type TVideosDB = {
+export interface VideosDB {
     id: string,
     title: string,
     duration: number,
